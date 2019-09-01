@@ -11,8 +11,20 @@ void forLoop()
     }
 }
 
+void reverseForLoop()
+{
+    int i, n;
+    printf("Enter any number: ");
+    scanf("%d", &n);
+    for (i = n; i >= 1; i--)
+    {
+        printf("%d\n", i);
+    }
+}
+
 int main()
 {
-    forLoop();
+    // forLoop();
+    reverseForLoop();
     return 0;
 }
